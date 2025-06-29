@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 # استبدل 'YOUR_TOKEN' بالتوكن الذي حصلت عليه من BotFather
-TOKEN = '1239144699:AAFR40tp6P6R9el38uWzJflBz33eJlFHVfA'
+TOKEN = '1239144699:AAF2X1-auksACBpMJM_8GBL0zRtSVEcGjcc'
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('مرحبًا! أنا بوت تيليجرام. كيف يمكنني مساعدتك؟')
@@ -12,7 +12,7 @@ def echo(update: Update, context: CallbackContext) -> None:
 
 def main():
     # إنشاء Updater وإدخال التوكن
-    updater = Updater(1239144699:AAFR40tp6P6R9el38uWzJflBz33eJlFHVfA)
+    updater = Updater(1239144699:AAF2X1-auksACBpMJM_8GBL0zRtSVEcGjcc)
 
     # الحصول على dispatcher لتسجيل المعالجات
     dispatcher = updater.dispatcher
